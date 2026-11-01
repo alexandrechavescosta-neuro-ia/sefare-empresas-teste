@@ -319,3 +319,10 @@ footer { padding: 2.25rem 0 6.5rem; color: var(--muted); font-size: 0.9rem; back
   html { scroll-behavior: auto; }
   .btn, .wa-float { transition: none; }
 }
+
+/* Depoimento */
+.depoimento { margin: 0; padding: 1.5rem 1.25rem; background: var(--surface); border-left: 3px solid var(--gold); border-radius: var(--radius); box-shadow: var(--shadow); max-width: 46rem; margin-inline: auto; }
+.depoimento blockquote { margin: 0; }
+.depoimento blockquote p { margin: 0; font-family: var(--display); font-size: 1.3rem; line-height: 1.5; color: var(--navy); }
+.depoimento figcaption { margin-top: 1rem; font-size: 0.9rem; color: var(--gold-text); font-weight: 600; }
+@media (min-width: 768px) { .depoimento { padding: 2.25rem 2.5rem; } .depoimento blockquote p { font-size: 1.5rem; } }
